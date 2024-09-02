@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>q-1</title>
+    <style>
+      
+      /* Form Styles */
+
+      *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      
+       #contact-form {
+        max-width: 500px;
+        margin: 40px auto;
+        padding: 20px;
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+        
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="text"], input[type="email"] {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+textarea {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type="submit"] {
+  width: 100%;
+  height: 40px;
+  background-color: blue;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+  
+/* 
+input[type="submit"]:hover {
+  background-color: blue;
+} */
+    
+
+
+    </style>
+</head>
+<body>
+    <!-- ​In this task, you’re required to style a contact form, focusing on form elements like input fields and labels. They should adjust properties like margin, padding, and border to create an attractive and user-friendly form design. -->
+
+    <form id="contact-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message"></textarea><br>
+        <input type="submit" value="Send">
+      </form>
+
+
+
+    
+</body>
+</html>
